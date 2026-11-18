@@ -4,7 +4,7 @@ A small grocery shopping app built with **React** and the **`useState`** hook. U
 
 ## Screenshot
 
-![Shopping App screenshot](screenshot.png)
+![Shopping App screenshot](shopScreenshot.png)
 
 ## Features
 
@@ -38,8 +38,8 @@ You need [Node.js](https://nodejs.org/) (v18 or newer) and npm.
 
 ```bash
 # 1. Clone your fork
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/kuriajosh777/shopping-app.git
+cd shopping-app
 
 # 2. Install dependencies
 npm install
