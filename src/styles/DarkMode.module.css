@@ -1,0 +1,46 @@
+/* Theme styles for the whole app.
+   App puts either .light or .dark on its wrapper div. */
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #213547;
+}
+
+.dark {
+  background-color: #1e1e2f;
+  color: #f1f1f1;
+}
+
+/* Buttons and the dropdown follow the theme too */
+.light button {
+  background-color: #eef1f5;
+  color: #213547;
+}
+
+.dark button {
+  background-color: #34344d;
+  color: #f1f1f1;
+}
+
+.dark select {
+  background-color: #34344d;
+  color: #f1f1f1;
+}
+
+.filter {
+  margin: 1.5rem 0;
+}
+
+.filter select {
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  font-size: 1em;
+}
